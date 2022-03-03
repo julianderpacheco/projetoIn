@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="/css/agenda.css">
+    
+       <title>Projeto Integrador</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <nav>
+        <a class="agenda" href="/agenda.html">Agenda</a>
+       
+        <img class="imagem" src="/img/Blue Modern Dental Teeth Logo Design Template(1).png" alt="logo do site" width="60px">
+           
+    </nav>
+    <aside>
+        <ul >
+            <li >
+                <a class= "box1" href="#agenda">Agenda</a>
+            </li>
+            
+            <li >
+                <a class= "box1" href="#cadastro">Cadastro</a>
+
+            </li>
+            <li>
+                <a class= "box1" href="#caixa">Caixa</a>
+
+            </li>
+            <li>
+                <a class= "box1" href="#prontuario">Prontuário</a>
+
+            </li>
+        </ul>
+    
+    </aside>
+    <section>      
+        <div class="container">
+          
+        
+            <table class="caixaUM">
+               <tr>
+                   <td >
+                        <form class="form1" id="Formulario" onsubmit="event.preventDefault();funcoesForm();">
+                            <fieldset>
+                                <div class="campo">
+                                    <label>Data da Atividade</label><br>
+                                    <input type="date" name="datas" id="datas" required><br>
+                                </div>
+                                <div class="campo">
+                                    <label class="classe">Horário de Início</label><br>
+                                    <input type="time" name="horaIni" id="horaIni" required><br>
+                                </div>
+                                <div class="campo">
+                                    <label>Horário de Término</label><br>
+                                    <input type="time" name="horaFim" id="horaFim" required><br>
+                                </div>
+                                <div class="campo">
+                                    <label>Paciente</label><br>
+                                    <textarea id="msg" name="msg" cols="30" rows="4"  required style="width: 295px; height: 33px;"></textarea>
+                                </div>
+                            </fieldset>
+                            <button type="submit" value="Submit" class="botao">Finalizar</button>
+                        </form> 
+                   </td>  
+                   
+                        <table  id="tabelaAtividades">
+                            <thead>
+                                <tr >
+                                    <th>Data da Atividade</th>
+                                    <th>Horário de Início</th>
+                                    <th>Horário de Término</th>
+                                    <th>Paciente</th>
+                                    <th></th>
+                                   
+                                </tr>
+                            </thead>
+                            <tbody>
+
+
+                            </tbody>
+
+                        </table>
+                        
+                        </div>
+                    </tr>        
+             </table>
+            
+    </section>
+    <footer>
+      
+    </footer>
+    <script src="/agenda.js"></script>
+</body>
+</html>

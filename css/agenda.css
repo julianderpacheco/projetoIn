@@ -1,0 +1,219 @@
+body{
+   background-color: rgb(29, 153, 255);
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  
+}
+
+
+nav {
+   background: #203B49;
+   ;
+   width: 100%;
+   height: 95px;
+   text-align: center;
+   margin: 2px;
+   display: flex;
+   flex-direction: row-reverse;
+   
+   justify-content: space-between;
+   
+}
+.imagem{
+  width: 100px;
+  height: 80px;
+  margin:15px 5px 5px 5px;
+  
+}
+.agenda{
+   font-family: Calistoga;
+   Font-style: Regular;
+   font-size:35px;
+   margin: auto;
+   color:#ffff;
+   text-decoration: none;
+
+}
+aside{
+float: left;
+display: inline-block;
+width: 150px;
+ height: 300px;
+ 
+}
+
+ul {
+   list-style:none;
+   margin: auto;
+   padding: 0%;
+   
+}
+li{
+   height: 30px;
+   margin-left: auto;
+   border-style: groove;
+   text-align: center;
+   background-color: #E5E5E5;
+   
+
+   
+}
+.box1 {
+   color: #203B49;
+   text-decoration: none;
+   
+  
+   
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+
+}
+.caixaUM{
+  margin-left: 80px;
+  
+}
+#tabelaAtividades{
+  width: auto;
+   height: auto;
+   padding: 2px;
+   margin-left:80px;
+   margin-right: 40px;
+  
+}
+
+a.box1{
+   width: 200px;
+   height: 50px;
+   Font-size: 22px;
+   color: #203B49;
+
+}
+form{
+  height: auto;
+}
+
+
+fieldset{
+   width: auto;
+   height: auto;
+   margin-top:0;
+   padding: 0;
+   box-sizing: border-box;
+  
+}
+section{
+   height: 100%;
+   margin-left:5px;
+   width: 70%;
+   display: flex;
+   display: inline-block;
+   justify-content: center;
+   
+ }
+.campo{
+    color: #203B49;
+    margin: 5px ;
+    border: 1px solid  #0D3064;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 18px;
+    background: #E5E5E5;
+}
+input{
+   padding: 5px;
+   width: 400px;
+   border-radius: 2px;
+   border: 1px solid #007aff;
+   margin-right: -4px;
+   font-family: Calistoga;
+   color:rgb(9, 39, 65);
+   font-size: 19px;
+}
+textarea{
+   padding: 5px;
+   border-radius: 2px;
+   border: 1px solid #007aff;
+   margin-right: -4px;
+}
+button{
+   margin-top: 5px;
+   margin-left: 450px;
+   padding: 6px;
+   font-size: 14px;
+   background-color: #b66641;
+   color:  #15242c;
+   border-radius: 20px;
+  
+   border-style: none;
+   
+}
+thead{
+   color:  #203B49;
+   font-family: Calistoga;
+   Font-style: Regular;
+   font-size:22px;
+   
+   
+}
+th{
+   padding: 9px;
+
+ 
+}
+
+
+.campo input[type="text"], .campo input[type="time"], .campo input[type="date"], .campo textarea{color: #203B49;
+  margin: 5px ;
+  border: 1px solid  #0D3064;
+  border-radius: 3px;
+  padding: 7px;
+  font-size: 18px;
+  background: #E5E5E5;
+}
+.botao:hover{
+  background: #921d00;
+  box-shadow: inset 2px 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+td, th {
+  border: 0px solid #dddddd;
+  font-size: 18px;
+  font-family: sans-serif;
+  height: 30px;
+  width: 60px;
+
+ 
+}
+tr, td {
+  height: 30px;
+  width: 60px;
+ 
+  
+  
+}
+
+tbody{
+  width: auto;
+  background-color: #E5E5E5;
+  
+  font-family: sans-serif;
+ width: 100px;
+  
+}
+
+form{
+  height: auto;
+}
